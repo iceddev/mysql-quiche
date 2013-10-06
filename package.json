@@ -1,0 +1,30 @@
+{
+  "name": "mysql-quiche",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iceddev/mysql-quiche"
+  },
+  "keywords": [
+    "cache",
+    "mysql"
+  ],
+  "author": "Blaine Bublitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iceddev/mysql-quiche/issues"
+  },
+  "dependencies": {
+    "redis": "~0.8.6",
+    "mysql": "~2.0.0-alpha9",
+    "when": "~2.5.0",
+    "lodash.bind": "~2.2.1",
+    "meld": "~1.3.0",
+    "lodash.uniqueid": "~2.2.1"
+  }
+}
